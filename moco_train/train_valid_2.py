@@ -6,7 +6,8 @@ Created on Mon May 23 09:25:10 2022
 
 Trains a convolutional neural network model to predict deformation fields to register perfusion 
 CMR dynamic images to the image in the time series with peak left vertical contrast.
-The augmented sample training data represents simulated respiratory motion to correct. 
+The augmented sample training data represents simulated respiratory motion to correct, which is
+only 0.3% of the ideal dataset.
 """
 
 # Dependencies:
